@@ -19,10 +19,10 @@ CREATE TABLE BOOKS (
 
 -- Create the Customers table
 CREATE TABLE CUSTOMERS (
-    CUSTOMER_ID INT AUTO_INCREMENT PRIMARY KEY,
-    CUSTOMER_NAME VARCHAR(215) NOT NULL,
-    EMAIL VARCHAR(215) UNIQUE,
-    ADDRESS TEXT
+    customer_id  INT  PRIMARY KEY,
+    customer_name VARCHAR(215) NOT NULL,
+    email VARCHAR(215) UNIQUE,
+    address TEXT
 );
 
 -- Create the Orders table
